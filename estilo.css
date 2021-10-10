@@ -67,7 +67,10 @@ section{
 }
 article{
     width: 960px;
-    
+}
+article img{
+   width: 200px;
+   height: 200px;
 }
 aside {
     width: 30%;
