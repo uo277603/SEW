@@ -1,0 +1,146 @@
+
+body{
+    font: 400 18px Tahoma, sans-serif;
+    background-color: #FFFFFF;
+}
+
+/*1*/
+h1 {
+	font-family: Segoe UI, sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 26.4px;
+	background-color:#6F1D1B;
+	color: white;
+	text-transform: uppercase;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+
+    
+    }
+/*1*/
+h2{
+    font-family: Segoe UI, sans-serif;
+	line-height: 26.4px;
+	background-color:#6F1D1B;
+	color: white;
+	text-transform: uppercase;
+    padding:10px
+  }
+
+p{
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+/*1*/
+nav{
+    background-color: #99582A;
+    padding: 14px 24px;
+}
+/*11*/
+nav a {
+    float: inline-start;
+    color: black;
+    
+    padding: 14px 24px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  /*21*/
+  nav a:hover {
+    background-color: #FFE6A7;
+    color: black;
+  }
+
+  
+  footer{
+      text-align: center;
+      position: relative;
+  
+  }
+footer p{
+    text-align: center;
+}
+section{
+    background-color: #FFE6A7;
+}
+
+aside {
+    background-color: #FFE6A7;
+  }
+
+  table{
+      width: 100%;
+      text-align: left;
+      border-collapse: collapse;
+      background-color: #FFE6A7;
+  }
+  caption{
+      background-color: #6F1D1B;
+      padding: 20px;
+      font-weight: bold;
+      color: #FFFFFF;
+      border-bottom:  solid 5px #99582A;
+  }
+  th, td{
+      padding: 20px;
+  }
+
+  form{
+      background-color:#FFE6A7 ;
+      padding: 10 px;
+      text-align: center;
+      width: 50%px;
+  }
+
+  input{
+      border: 0;
+      outline: none;
+      border:solid 1px;
+      padding: 10px;
+  }
+  label, fieldset{
+      font-family: Segoe UI, sans-serif;
+      
+  }
+
+  video{
+    max-width: 30%;
+  }
+
+  /*ver si se puede*/
+  #boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #99582A;
+    border-radius: 6px;
+    border: 2px solid #99583F;
+  }
+
+  
+
+
+
+
+
+
+
+  /* #222222
+    #FFFFFF
+    #1C5D99
+    #639FAB
+    #BBCDE5 */
+
+/* #6F1D1B
+#BB9457
+#432818
+#99582A
+#FFE6A7 */
+
+  
+  
