@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-rows: 12% 22% 57% 10%;
+    grid-template-rows: 13% 16% 62% 10%;
     grid-template-columns: 70% 30%;
     gap: 10px;
 }
@@ -28,6 +28,17 @@ footer{
 aside{
     grid-column: 2 / 3;
     grid-row: 2 / 4;
+}
+
+aside section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+aside section img{
+    width: 50%;
+    align-self: center;
 }
 
 @media screen and (max-width: 1300px){

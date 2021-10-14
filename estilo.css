@@ -73,8 +73,6 @@ section video{
     display: block
 }
 
-
-
 aside {
     background-color: #FFE6A7;
   }
@@ -133,10 +131,8 @@ aside {
       padding-bottom: 5px;
   }
 
- 
-
-  /*ver si se puede*/
-  #boton{
+  /*011*/
+  input[type="submit"]{
     text-decoration: none;
     padding: 10px;
     font-weight: 600;
@@ -147,18 +143,3 @@ aside {
     border: 2px solid #99583F;
     margin-top: 5px;
   }
-
-  /* #222222
-    #FFFFFF
-    #1C5D99
-    #639FAB
-    #BBCDE5 */
-
-/* #6F1D1B
-#BB9457
-#432818
-#99582A
-#FFE6A7 */
-
-  
-  
