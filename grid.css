@@ -1,8 +1,6 @@
-/*001*/
-
-body {
+body{
     display: grid;
-    grid-template-rows: 10% 20% 62% 10%;
+    grid-template-rows: 13% 17% 62% 10%;
     grid-template-columns: 70% 30%;
     gap: 10px;
 }
