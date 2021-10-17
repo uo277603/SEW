@@ -1,19 +1,23 @@
-body{
+/*001*/
+
+body {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
 
-@media screen and (max-width: 1300px){
+/*002*/
 
-    nav{
+section audio {
+    align-self: center;
+}
+
+@media screen and (max-width: 1300px) {
+    /*001*/
+    nav {
         display: grid;
         grid-template-rows: 50% 50%;
         grid-template-columns: 50% 50%;
     }
 }
-
-
-
-
