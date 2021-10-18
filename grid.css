@@ -112,6 +112,11 @@ aside section img {
     video {
         max-width: 100%;
     }
+    
+    /*002*/
+    figure img{
+        max-width: 100%;
+    }
 
 
 }
