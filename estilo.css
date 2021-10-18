@@ -91,6 +91,30 @@ section {
     background-color: #FFE6A7;
 }
 
+/*002*/
+
+figure img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+
+}
+
+/*002*/
+
+section video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+/*002*/
+section audio{
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
 
 /*001*/
 
