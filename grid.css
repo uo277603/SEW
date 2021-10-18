@@ -49,6 +49,7 @@ section video {
     display: block
 }
 
+/*002*/
 section audio{
     margin-left: auto;
     margin-right: auto;
@@ -112,11 +113,13 @@ aside section img {
     video {
         max-width: 100%;
     }
-    
+
     /*003*/
     section figure img{
         max-width: 100%;
     }
+
+
 
 
 }
