@@ -9,7 +9,7 @@ body {
 /*001*/
 
 h1 {
-    font-family: Segoe UI, sans-serif;
+    font-family: "Segoe UI", sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 26.4px;
@@ -25,7 +25,7 @@ h1 {
 /*001*/
 
 h2 {
-    font-family: Segoe UI, sans-serif;
+    font-family: "Segoe UI", sans-serif;
     line-height: 26.4px;
     background-color: #6F1D1B;
     color: white;
@@ -129,10 +129,10 @@ caption {
 }
 
 
-/*001*/
 
 
-/*001*/
+/*001*//*001*/
+
 
 th,
 td {
@@ -167,14 +167,13 @@ input {
 }
 
 
-/*001*/
 
+/*001*//*001*/
 
-/*001*/
 
 label,
 fieldset {
-    font-family: Segoe UI, sans-serif;
+    font-family: "Segoe UI", sans-serif;
 }
 
 
