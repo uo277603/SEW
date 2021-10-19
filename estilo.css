@@ -143,9 +143,6 @@ caption {
     border-bottom: solid 5px #99582A;
 }
 
-
-
-
 /*001*//*001*/
 
 
@@ -175,13 +172,10 @@ form {
 /*001*/
 
 input {
-    border: 0;
     outline: none;
-    border: solid 1px;
+    border:  solid 1px;
     padding: 10px;
 }
-
-
 
 /*001*//*001*/
 
@@ -190,10 +184,6 @@ label,
 fieldset {
     font-family: "Segoe UI", sans-serif;
 }
-
-
-
-
 
 /*001*/
 
@@ -215,5 +205,6 @@ input[type="submit"] {
     background-color: #99582A;
     border-radius: 6px;
     border: 2px solid #99583F;
+    
     margin-top: 5px;
 }
