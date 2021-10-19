@@ -1,16 +1,15 @@
 /*001*/
 body{
     display: grid;
-    gap: 10px;
+    row-gap: 10px;
+    column-gap: 10px;
     grid-template-areas: 
             "header header "
             "section1 aside"
             "section2 aside"
-            "footer footer"
+            "footer footer "
        ;
-       grid-template-columns: 3fr 1fr;
 }
-
 
 /*001*/
 
@@ -62,39 +61,38 @@ aside section img {
     align-self: center;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1000px) {
+
     /*001*/
     body{
-        display: grid;
-        gap: 10px;
-        grid-template-areas: 
-            "header"
-            "section1"
-            "section2"
-            "aside"
-            "footer"
-       ;
-       grid-template-columns: 100%;
-    }
-
-    /*001*/
-    nav {
-        display: grid;
-        grid-template-rows: 50% 50%;
-        grid-template-columns: 50% 50%;
-    }
-
-    /*001*/
-    video {
-        max-width: 100%;
-    }
-
-    /*003*/
-    section figure img{
-        max-width: 100%;
-    }
-
-
-
-
-}
+     grid-template-areas: 
+         "header"
+         "section1"
+         "section2"
+         "aside"
+         "footer"
+    ;
+ }
+ 
+  
+      /*001*/
+      nav {
+          display: grid;
+          grid-template-rows: 50% 50%;
+          grid-template-columns: 50% 50%;
+      }
+  
+      /*001*/
+      video {
+          max-width: 100%;
+      }
+  
+      /*003*/
+      section figure img{
+          max-width: 100%;
+      }
+  
+  
+  
+  
+  }
