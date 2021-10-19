@@ -1,0 +1,55 @@
+/*001*/
+body{
+    display: grid;
+    row-gap: 0.8em;
+    column-gap: 0.8em;
+    grid-template-areas: 
+            "header header "
+            "section1 aside"
+            "section2 aside"
+            "footer footer "
+       ;
+    grid-template-columns: 3fr 1fr;
+}
+
+/*001*/
+header {
+    grid-area: header
+}
+
+
+/*012*/
+body>section:first-child {
+    grid-area: section1;
+}
+
+
+/*012*/
+body>section:last-child {
+    grid-area: section2;
+}
+
+/*001*/
+footer {
+    grid-area: footer;
+}
+
+
+/*001*/
+aside {
+    grid-area: aside;
+}
+
+
+/*002*/
+aside section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*003*/
+aside section img {
+    max-width: 50%;
+    align-self: center;
+}
