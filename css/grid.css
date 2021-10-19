@@ -1,8 +1,8 @@
 /*001*/
 body{
     display: grid;
-    row-gap: 1em;
-    column-gap: 1em;
+    row-gap: 0.8em;
+    column-gap: 0.8em;
     grid-template-areas: 
             "header header "
             "section1 aside"
@@ -45,7 +45,6 @@ aside {
 aside section {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 

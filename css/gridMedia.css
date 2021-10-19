@@ -28,5 +28,10 @@
       section figure img{
           max-width: 100%;
       }
+
+      /*001*/
+      form{
+          max-width: 50%;
+      }
   
   }
