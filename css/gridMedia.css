@@ -1,0 +1,32 @@
+@media screen and (max-width: 1000px) {
+
+    /*001*/
+    body{
+     grid-template-areas: 
+         "header"
+         "section1"
+         "section2"
+         "aside"
+         "footer"
+    ;
+    grid-template-columns: 100%;
+ }
+ 
+      /*001*/
+      nav {
+          display: grid;
+          grid-template-rows: 50% 50%;
+          grid-template-columns: 50% 50%;
+      }
+  
+      /*001*/
+      video {
+          max-width: 100%;
+      }
+  
+      /*003*/
+      section figure img{
+          max-width: 100%;
+      }
+  
+  }
